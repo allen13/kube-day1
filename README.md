@@ -38,7 +38,7 @@ goals of this course
 * Master Kubernetes basics
 * Learn Openshift
 * Learn about non-core components that support Kubernetes environments
-* Start walking down the cloud native trail
+* Start walking down the [cloud native trail](https://github.com/cncf/landscape/blob/master/README.md#trail-map)
 * Be able to administer an Openshift/Kubernetes cluster
 
 important items provided by kubernetes distros
