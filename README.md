@@ -132,5 +132,5 @@ deploy an app
 * Bonus points if you can hit your application via route.
 
 Links
-* [Create an App](Dhttps://docs.openshift.com/container-platform/4.5/applications/application_life_cycle_management/creating-applications-using-cli.html)
+* [Create an App](https://docs.openshift.com/container-platform/4.5/applications/application_life_cycle_management/creating-applications-using-cli.html)
 * [Expose a Servie](https://docs.openshift.com/container-platform/4.5/cli_reference/openshift_cli/developer-cli-commands.html#expose)
