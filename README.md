@@ -108,6 +108,7 @@ oc client
         * [Mac](https://github.com/openshift/okd/releases/download/4.5.0-0.okd-2020-09-04-180756/openshift-client-mac-4.5.0-0.okd-2020-09-04-180756.tar.gz)
         * [Windows](https://github.com/openshift/okd/releases/download/4.5.0-0.okd-2020-09-04-180756/openshift-client-windows-4.5.0-0.okd-2020-09-04-180756.zip)
         * [Linux](https://github.com/openshift/okd/releases/download/4.5.0-0.okd-2020-09-04-180756/openshift-client-linux-4.5.0-0.okd-2020-09-04-180756.tar.gz)
+        * Mac homebrew - `brew install openshift-cli`
     * Log into the class Openshift cluster
     * See class Slack for credentials
 2. Log in on the command line `oc login`
