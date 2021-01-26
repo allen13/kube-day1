@@ -117,12 +117,12 @@ oc client
 3. Create a project/namespace that matches your name
 first initial + last name e.g. Timothy Allen = tallen
 
-openshift 4 documentation
+OpenShift 4 documentation
 -------------------------
 
 Get comfortable with the openshift 4 documentation as it will guide  you as both a developer and admin.
 
-* [Openshift 4.5 Docs](https://docs.openshift.com/container-platform/4.5/welcome/index.html)
+* [OpenShift 4.5 Docs](https://docs.openshift.com/container-platform/4.5/welcome/index.html)
 
 deploy an app
 -------------
