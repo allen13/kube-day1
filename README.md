@@ -7,9 +7,9 @@ Topics
 * Introduction
 * Goals
 * Kubernetes Distros
-* Openshift
-* Lab 1 Install oc client and log into Openshift cluster
-* Openshift Documentation
+* OpenShift
+* Lab 1 Install oc client and log into OpenShift cluster
+* OpenShift Documentation
 * Lab 2 Deploy an app to your namespace
 
 requirements
@@ -17,10 +17,10 @@ requirements
 
 * Basic understanding of Kubernetes and Docker
 * Be able to read and understand everything in this children’s picture book: https://www.cncf.io/phippy-goes-to-the-zoo-book/
-* Can install Openshift client binaries on windows/linux/mac
+* Can install OpenShift client binaries on windows/linux/mac
 * Can install Helm binary on windows/linux/mac
 * Recommend having Docker installed with Kubernetes enabled
-* Optionally have [code ready containers](https://developers.redhat.com/products/codeready-containers/overview) installed for local openshift development
+* Optionally have [code ready containers](https://developers.redhat.com/products/codeready-containers/overview) installed for local OpenShift development
 * Show up everyday by 7:05. Alert me or attempt to make it up otherwise
 * Time on shared cluster after class must be scheduled in slack in set increments. Otherwise the cluster will be turned off everyday to save costs. Try to piggy back on other students scheduled time (See slack channel).
 
@@ -36,10 +36,10 @@ goals of this course
 --------------------
 
 * Master Kubernetes basics
-* Learn Openshift
+* Learn OpenShift
 * Learn about non-core components that support Kubernetes environments
 * Start walking down the [cloud native trail](https://github.com/cncf/landscape/blob/master/README.md#trail-map)
-* Be able to administer an Openshift/Kubernetes cluster
+* Be able to administer an OpenShift/Kubernetes cluster
 
 important items provided by kubernetes distros
 ----------------------------------------------
@@ -70,7 +70,7 @@ Software distros can be run locally or in the cloud. They are the least likely t
     * Requires the user to choose an OS
 
 * Openshift/CoreOS
-    * Developed by RedHat
+    * Developed by Red Hat
     * THE turn key kubernetes distro. RedHat has put together a verified solution for every non-core Kubernetes feature out there.
     * The one software distro that might lock you in if you aren’t careful. (At least it’s multi-cloud)
     * RedHat deviates/forks CNCF projects including Kubernetes itself
@@ -103,13 +103,13 @@ Top cloud distros
 oc client
 ---------
 
-1. Install the Openshift oc client
+1. Install the OpenShift oc client
     * Pick the binary for your platform from the [okd release page](https://github.com/openshift/okd/releases/tag/4.5.0-0.okd-2020-09-04-180756) and put it in your PATH
         * [Mac](https://github.com/openshift/okd/releases/download/4.5.0-0.okd-2020-09-04-180756/openshift-client-mac-4.5.0-0.okd-2020-09-04-180756.tar.gz)
         * [Windows](https://github.com/openshift/okd/releases/download/4.5.0-0.okd-2020-09-04-180756/openshift-client-windows-4.5.0-0.okd-2020-09-04-180756.zip)
         * [Linux](https://github.com/openshift/okd/releases/download/4.5.0-0.okd-2020-09-04-180756/openshift-client-linux-4.5.0-0.okd-2020-09-04-180756.tar.gz)
         * Mac homebrew - `brew install openshift-cli`
-    * Log into the class Openshift cluster
+    * Log into the class OpenShift cluster
     * See class Slack for credentials
 2. Log in on the command line `oc login`
     * Run `oc get nodes`
@@ -117,12 +117,12 @@ oc client
 3. Create a project/namespace that matches your name
 last name + first initial e.g. Timothy Allen = timothya
 
-openshift 4 documentation
+OpenShift 4 documentation
 -------------------------
 
 Get comfortable with the openshift 4 documentation as it will guide  you as both a developer and admin.
 
-* [Openshift 4.5 Docs](https://docs.openshift.com/container-platform/4.5/welcome/index.html)
+* [OpenShift 4.5 Docs](https://docs.openshift.com/container-platform/4.5/welcome/index.html)
 
 deploy an app
 -------------
