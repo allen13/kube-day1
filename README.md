@@ -105,10 +105,10 @@ oc client
 ---------
 
 1. Install the OpenShift oc client
-    * Pick the binary for your platform from the [okd release page](https://github.com/openshift/okd/releases/tag/4.5.0-0.okd-2020-09-04-180756) and put it in your PATH
-        * [Mac](https://github.com/openshift/okd/releases/download/4.5.0-0.okd-2020-09-04-180756/openshift-client-mac-4.5.0-0.okd-2020-09-04-180756.tar.gz)
-        * [Windows](https://github.com/openshift/okd/releases/download/4.5.0-0.okd-2020-09-04-180756/openshift-client-windows-4.5.0-0.okd-2020-09-04-180756.zip)
-        * [Linux](https://github.com/openshift/okd/releases/download/4.5.0-0.okd-2020-09-04-180756/openshift-client-linux-4.5.0-0.okd-2020-09-04-180756.tar.gz)
+    * Pick the binary for your platform from the [okd release page](https://github.com/openshift/okd/releases/tag/4.7.0-0.okd-2021-06-04-191031) and put it in your PATH
+        * [Mac](https://github.com/openshift/okd/releases/download/4.7.0-0.okd-2021-06-04-191031/openshift-client-mac-4.7.0-0.okd-2021-06-04-191031.tar.gz)
+        * [Windows](https://github.com/openshift/okd/releases/download/4.7.0-0.okd-2021-06-04-191031/openshift-client-windows-4.7.0-0.okd-2021-06-04-191031.zip)
+        * [Linux](https://github.com/openshift/okd/releases/download/4.7.0-0.okd-2021-06-04-191031/openshift-client-linux-4.7.0-0.okd-2021-06-04-191031.tar.gz)
         * Mac homebrew - `brew install openshift-cli`
     * Log into the class OpenShift cluster
     * See class Slack for credentials
