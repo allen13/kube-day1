@@ -17,6 +17,7 @@ requirements
 
 * Basic understanding of Kubernetes and Docker
 * Be able to read and understand everything in this children’s picture book: https://www.cncf.io/phippy-goes-to-the-zoo-book/
+* learn.openshift.com
 * Can install OpenShift client binaries on windows/linux/mac
 * Can install Helm binary on windows/linux/mac
 * Recommend having Docker installed with Kubernetes enabled
